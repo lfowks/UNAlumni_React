@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Daniel",
+        "lastNameOne": "Montiel",
+        "lastNametwo": "Hernández",
+        "career": "",
+        "birthdate": "2001-09-04T06:00:00.000Z",
+        "email": "monti@gmail.com",
+        "image": "this is my image url",
+        "phone": 88888888,
+        "address": "this is my address",
+        "description": "this is my description",
+        "resume": "this is my resume url"
+    },
+    {
+        "id": 2,
+        "name": "Daniel",
+        "lastNameOne": "Montiel",
+        "lastNametwo": "Hernández",
+        "career": "",
+        "birthdate": "2001-09-04T06:00:00.000Z",
+        "email": "monti@gmail.com",
+        "image": "this is my image url",
+        "phone": 88888888,
+        "address": "this is my address",
+        "description": "this is my description",
+        "resume": "this is my resume url"
+    },
+    {
+        "id": 3,
+        "name": "Daniel",
+        "lastNameOne": "Montiel",
+        "lastNametwo": "Hernández",
+        "career": "",
+        "birthdate": "2001-09-04T06:00:00.000Z",
+        "email": "monti@gmail.com",
+        "image": "this is my image url",
+        "phone": 88888888,
+        "address": "this is my address",
+        "description": "this is my description",
+        "resume": "this is my resume url"
+    }
+]

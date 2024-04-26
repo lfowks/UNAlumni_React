@@ -1,0 +1,32 @@
+.date{
+    margin-bottom: 5px;
+    margin-left: 6px;
+    width: 19px; 
+    height: 18px;
+  }
+  .card-texts{
+    margin-left: 75px;
+    
+  }
+  .card-description{
+    font-size: small;
+  }
+.iconos-habilidades{
+    width: 46px; 
+    height: 46px;
+    margin-left: 5px;
+}
+.projects{
+    justify-content: center;
+}
+.card-profile-image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+} 

@@ -1,0 +1,106 @@
+/* Contenedor */
+.card-list {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centra horizontalmente las tarjetas */
+    align-items: flex-start; /* Alinea las tarjetas en la parte superior */
+  }
+  
+  /* Contenedor */
+  
+  
+  
+  /* Encabezado */
+  .header-container {
+    text-align: center;
+    padding: 100px;
+    background-color: #034991;
+    margin-bottom: 3rem;
+    border-radius: 0px;
+  }
+  
+  .background-title {
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+  
+  .ver-mas-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #CD1719;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  /* Encabezado */
+  
+  /* Responsive Encabezado */
+  /* Media query para pantallas de 414x896 o más pequeñas (teléfonos) */
+  @media screen and (max-width: 414px) {
+    .background-title {
+      font-size: 44px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query para pantallas de 768x1024 o más pequeñas (tabletas en orientación vertical) */
+  @media screen and (max-width: 768px) {
+    .header-container {
+      padding: 10px;
+    }
+  }
+  
+  /* Media query para pantallas de 1280x950 o más pequeñas */
+  @media screen and (max-width: 1280px) {
+    .background-title {
+      font-size: 28px;
+    }
+  }
+  
+  /* Responsive Encabezado */
+  
+  
+
+  
+
+
+  
+  /* Contenedor de Cartas */
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+    gap: 40px;
+    padding: 3rem 8rem;
+    background-color: #F4F6F5;
+  }
+  
+  /* Media Query para pantallas más pequeñas, como tablets en orientación vertical y dispositivos móviles */
+  @media (max-width: 768px) {
+    .cards-container {
+      padding: 2rem; /* Ajusta el espaciado para pantallas más pequeñas */
+    }
+  }
+  
+  /* Media Query para pantallas más grandes, como tablets en orientación horizontal y escritorio */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .cards-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el número de tarjetas por fila */
+      padding: 4rem; /* Ajusta el espaciado para pantallas medianas */
+    }
+  }
+  
+  /* Media Query para pantallas de escritorio */
+  @media (min-width: 1025px) {
+    .cards-container {
+      padding: 5rem; /* Ajusta el espaciado para pantallas de escritorio */
+    }
+  }

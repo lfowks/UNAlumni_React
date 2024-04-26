@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Maria del Mar",
+    "lastNameOne": "Acon",
+    "lastNametwo": "Vargas",
+    "career": "Ingeniería en sistemas de información",
+    "birthdate": "2001-09-04T06:00:00.000Z",
+    "email": "mariadelmar@gmail.com",
+    "password": "pass1234",
+    "image": "https://i.imgur.com/UYmKVAU.png",
+    "phone": 86804110,
+    "address": "this is my address",
+    "summary": "this is my description",
+    "github": "this is my github url",
+    "linkedin": "this is my linkedin url",
+    "resume": "this is my resume url",
+    "educations": [
+      {
+        "id": 1,
+        "name": "Inglés conversacional UNA",
+        "description": "Curso de inglés conversacional certificado por la Universidad Nacional de Costa Rica",
+        "duration": 80,
+        "startDate": "2017-02-20T06:00:00.000Z",
+        "finishDate": "2018-12-10T06:00:00.000Z",
+        "image": "This is my image url"
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "title": "Proyecto Ecomuseo",
+        "description": "Mi descripcion",
+        "startDate": "2023-09-27T23:23:26.000Z",
+        "finishDate": "2023-09-27T23:23:31.000Z",
+        "image": "https://i.imgur.com/c67Ft1R.png"
+      }
+    ],
+    "skills": [
+      {
+        "level": "Basic",
+        "profileId": 1,
+        "skillId": 1,
+        "skill": {
+          "id": 1,
+          "name": "Boostrap",
+          "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968672.png"
+        }
+      },
+      {
+        "level": "Expert",
+        "profileId": 1,
+        "skillId": 2,
+        "skill": {
+          "id": 2,
+          "name": "Javascript",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png?20210407134359"
+        }
+      }
+    ],
+    "languages": [
+      {
+        "level": "Native",
+        "profileId": 1,
+        "languageId": 1,
+        "language": {
+          "id": 1,
+          "name": "Portuges",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png"
+        }
+      }
+    ]
+  }
+]

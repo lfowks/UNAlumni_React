@@ -1,0 +1,52 @@
+.box {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+  }
+.ellipse {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #034991; /* Color de fondo de la elipse */
+    width: 300px; /* Ancho de la elipse */
+    height: 290px; /* Altura de la elipse */
+    border-radius: 50%; /* Hace que la forma sea una elipse */
+    position: relative;
+    z-index: 1; /* Coloca la elipse en un nivel superior */
+  }
+.ellipse-image {
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para que llene completamente la elipse sin distorsionarla */
+    z-index: 2; /* Coloca la imagen encima de la elipse */
+  }
+.ellipse-roja {
+    
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 5px solid;
+    border-color: #cd1719;
+    border-radius: 50%;
+    height: 340px;
+    margin-right: 20px;
+    width: 350px;
+  }
+  @media (max-width: 767px) {
+    .ellipse-roja {
+      margin-right: 0px;
+      left: 10px;
+    }
+  }
+  .carrer_name{
+    margin-left: 45%;
+  }
+  @media (max-width: 767px) {
+    .carrer_name {
+      margin-left: 8%;
+    }
+  }

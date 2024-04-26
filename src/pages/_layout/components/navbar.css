@@ -1,0 +1,68 @@
+.Nav-cntr{
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(218, 218, 218)); */
+    background-image: white;
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
+    /* width: 100%; */
+   /* box-shadow: 0px 2px 9px  rgb(178, 178, 178);*/
+    
+}
+
+.Nav-ctnt-box{
+    /*border: solid 2px blue;*/
+    
+    /* height: 3rem; */
+    
+    /* padding: 0px;
+    margin-right: 10px; */
+    
+}
+
+Button{
+    margin-left: 1rem;
+    
+}
+
+.link{
+    margin-left: 2rem;
+    
+}
+.nav-link{
+        color: rgb(0, 0, 0); 
+}
+.nav-link:hover{
+    color: #CD1719 !important; 
+}
+
+.button-iniciar-sesion{
+    border-color: #ffffff;
+    border-radius: 6px;
+    background: #CD1719;
+    width: 145px;
+    height: 37px;
+}
+.button-register{
+    border-radius: 6px;
+    border-color: white;
+    background: rgba(255, 255, 255, 0.00);
+    color: #CD1719;
+    width: 150px;
+    height: 37px;
+ 
+}
+.button-register:hover{
+    border-color: #CD1719;
+    background-color: #CD1719; /* Cambia el color de fondo cuando se pasa el ratón sobre el botón */
+    color: #ffffff; 
+}
+.button-iniciar-sesion:hover{
+    border-color: #ffffff;
+    background-color: #ffffff; /* Cambia el color de fondo cuando se pasa el ratón sobre el botón */
+    color: #CD1719; 
+}
+.Nav-link-items{
+    
+}
+.boton{
+margin-left: 5rem;
+}

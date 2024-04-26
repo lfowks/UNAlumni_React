@@ -1,0 +1,187 @@
+
+  
+  .columnas-habilidades {
+    justify-content: center !important;
+  }
+  
+  .projects-col {
+    justify-content: center;
+  }
+  
+  .tech {
+    align-items: center;
+    display: inline-flex;
+    margin-top: 25px;
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+    margin-left: 5%;
+  }
+  
+  .box_education .rectangle_education {
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #1d7874;
+    border-radius: 4px;
+    height: 113px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 90%; /* Cambié el valor para que sea más ancho en pantallas pequeñas */
+    margin-top: 15px;
+  }
+  
+  .title_h2 {
+    margin-top: 15px;
+    margin-left: 2%;
+    font-size: 18px;
+  }
+  
+  .title2_h2 {
+    margin-top: 15px;
+    margin-left: 2%;
+    font-size: 15px;
+  }
+  
+  .education-frame .overlap {
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #1d7874;
+    border-radius: 4px;
+    height: 113px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+  }
+  
+  .education-frame .jan-dec {
+    height: 29px;
+    margin-top: 20px;
+    margin-left: 0; /* Eliminé el valor para que se ajuste automáticamente */
+    width: 100%; /* Cambié el valor para que sea el 100% del contenedor */
+    overflow: hidden;
+  }
+  
+  .education-frame .overlap-group {
+    background-color: #1d7874;
+    border-radius: 8px;
+    height: 29px;
+    position: relative;
+    width: 25%; /* Cambié el valor para que sea el 100% del contenedor */
+    border: 30px;
+    margin-left: 70%;
+    
+  }
+  
+  .education-frame .text-wrapper {
+    color: white;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    left: 0px;
+    letter-spacing: 0;
+    line-height: 12.1px;
+    position: relative;
+    text-align: center;
+    top: 8px;
+    width: 100%; /* Cambié el valor para que sea el 100% del contenedor */
+  }
+  
+  .education-frame .UNIVERSIDAD-NACIONAL {
+    color: var(--black);
+    font-family: var(--h4-18px-font-family);
+    font-size: var(--h4-18px-font-size);
+    font-style: var(--h4-18px-font-style);
+    font-weight: var(--h4-18px-font-weight);
+    left: 10px;
+    letter-spacing: var(--h4-18px-letter-spacing);
+    line-height: var(--h4-18px-line-height);
+    position: absolute;
+    top: 21px;
+    width: 100%; /* Cambié el valor para que sea el 100% del contenedor */
+  }
+  
+  .education-frame .bachillerato-en {
+    color: #4b5563;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 55px;
+    width: 100%; /* Cambié el valor para que sea el 100% del contenedor */
+  }
+  .box1{
+    padding-left: 10px;
+  }
+  /* nuevos cambios */
+  .cards {
+    position:relative;
+   
+   
+    width:100%;
+    min-height:170px;
+    margin-top: 20px;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+    transition:0.5s;
+}
+.cards:hover {
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+.cards .boxs {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing: border-box;
+    width:100%;
+    margin: 0 auto;
+}
+.cards h2,
+.cards h5,
+.cards p {
+    max-width: 100%; /* Ajusta según tus necesidades */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cards .boxs .img {
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+.cards .boxs .img img {
+    width:100%;
+    height:100%;
+}
+.cards .boxs h2 {
+    font-size:20px;
+    color:#262626;
+    
+}
+
+.cards .boxs p {
+    color:#262626;
+}
+.cards .boxs span {
+    display:inline-flex;
+}
+.cards .boxs h2 span {
+  align-self: flex-end !important;
+    font-size:14px;
+    background:#075837;
+    color:#fff;
+    margin-left: 35%;
+    padding:4px 10px;
+    border-radius:15px;
+}
+

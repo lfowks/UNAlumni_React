@@ -1,0 +1,52 @@
+.card-offer{
+    width: 42%;
+    min-height: 14rem;
+    max-height: 14rem;
+    box-shadow: -5px 0px 0px 0px #CD1719;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card-offer:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+.card-offer-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.offer-title{
+display: block;
+width: 100%;
+text-align: left;
+}
+.offer-description{
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
+.offer-status{
+    display: block;
+    width: 3rem;
+    text-align: start;
+    margin: 1.5rem 1rem 1rem 1rem;
+    
+}
+.skill-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.skill-container img{
+    width: 20px !important;
+    height: 20px !important;
+    
+}
+
+.skill-container .skills_name{
+   visibility: hidden;
+   position: absolute;
+   z-index: -100;
+}

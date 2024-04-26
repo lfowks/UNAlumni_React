@@ -1,0 +1,57 @@
+.language-spanish {
+    height: 110px;
+    overflow: hidden;
+    position: relative;
+    width: 241px;
+  }
+  
+  .language-spanish .text-wrapper {
+    color: var(--black);
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 103px;
+    letter-spacing: 0;
+    line-height: 29.7px;
+    position: absolute;
+    top: 24px;
+    width: 207px;
+  }
+  
+  .language-spanish .div {
+    color: var(--black);
+    font-family: var(--p-15px-paragraph-font-family);
+    font-size: var(--p-15px-paragraph-font-size);
+    font-style: var(--p-15px-paragraph-font-style);
+    font-weight: var(--p-15px-paragraph-font-weight);
+    left: 103px;
+    letter-spacing: var(--p-15px-paragraph-letter-spacing);
+    line-height: var(--p-15px-paragraph-line-height);
+    position: absolute;
+    top: 68px;
+    width: 70px;
+  }
+  
+  .language-spanish .spain {
+    height: 44px;
+    left: 17px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 51px;
+  }
+  .custom-card{
+    display: inline-flex;
+    margin: 2rem;
+  }  
+  .cols img {
+    height: auto;
+    max-width: 100px; /* Ajusta según tus necesidades */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Mantiene la proporción original de la imagen */
+  }
+  .lngs{
+    max-width: min-content;
+    height: 200px;
+  }

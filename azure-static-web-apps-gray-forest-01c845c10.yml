@@ -1,0 +1,18 @@
+trigger:
+- develop
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - checkout: 'self'
+    submodules: true
+
+  - task: AzureStaticWebApp@0
+    displayName: UNAlumni Static Web Deploy
+    inputs:
+      app_location: '/'
+      output_location: 'dist'
+      app_build_command: 'npm run build'
+      azure_static_web_apps_api_token: $(DEPLOY_TOKEN)
+

@@ -1,0 +1,80 @@
+
+[
+    {
+    "id": 1,
+    "name": "Daniel",
+    "firstName": "Montiel",
+    "lastName": "Hernández",
+    "career": "Ingenieria en sistemas de Infromación",
+    "birthDate": "2001-09-04T06:00:00.000Z",
+    "email": "monti@gmail.com",
+    "image": "https://i.stack.imgur.com/l60Hf.png",
+    "phone": 88888888,
+    "address": "this is my address",
+    "summary": "this is my summary",
+    "resume": "this is my resume url",
+    "projects": [
+        {
+        "id": 1,
+        "name": "Proyecto Corredor Biológico HN",
+        "description": "Este fue un proyecto realizado durante 1 año y 6 meses para una organización que deseaba gestionar sus actividades y darse a conocer.",
+        "url": "https://i.imgur.com/c67Ft1R.png"
+        
+        },
+        {
+        "id": 2,
+        "name": "Prueba",
+        "description": "Una descripcion",
+        "url": "https://i.imgur.com/c67Ft1R.png"
+        
+        },
+        {
+        "id": 3,
+        "name": "lfowks2",
+        "description": "FOWKS",
+        "url": "https://i.imgur.com/c67Ft1R.png"
+        
+        }
+    ]
+    },
+    {
+        "id": 2,
+        "name": "Maria Del Mar",
+        "firstName": "Acón",
+        "lastName": "Vargas",
+        "career": "Ingenieria en sistemas de Infromación",
+        "birthDate": "2001-09-04T06:00:00.000Z",
+        "email": "monti@gmail.com",
+        "image": "https://i.imgur.com/UYmKVAU.png",
+        "phone": 88888888,
+        "address": "this is my address",
+        "summary": "this is my summary",
+        "resume": "this is my resume url",
+        "skills": [
+            {
+            "id": 1,
+            "name": "Boostrap",
+            "url": "https://cdn-icons-png.flaticon.com/512/5968/5968672.png"
+            
+            },
+            {
+            "id": 2,
+            "name": "JavaScript",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png?20210407134359"
+            
+            },
+            {
+            "id": 3,
+            "name": "Laravel",
+            "url": "https://w7.pngwing.com/pngs/758/884/png-transparent-circle-laravel-programming-round-icon-popular-services-brands-vol-icon-thumbnail.png"
+            
+            },
+            {
+            "id": 4,
+            "name": "React",
+            "url": "https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
+            
+            }
+        ]
+        }
+]

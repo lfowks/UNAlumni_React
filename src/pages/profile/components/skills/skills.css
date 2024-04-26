@@ -1,0 +1,28 @@
+.habilidades{
+    color: #034991;
+
+font-size: 40px;
+
+font-weight: 600;
+line-height: 123.6%; /* 49.44px */
+
+}
+.habilidades-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tech .icon-javscript {
+    height: 64px;
+    position: relative;
+    width: 64px;
+  }
+  .tech2 .icon-javscript {
+    height: 30px;
+    position: relative;
+    width: 30px;
+    display: inline-flex;
+  }
+
